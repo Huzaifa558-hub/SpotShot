@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- Secrets & Environment (CRITICAL for Public Repos) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Frontend / Full-Stack (if using React/Node/TS) ---
+node_modules/
+dist/
+build/
+.next/
+.expo/
+*.tsbuildinfo
+
+# --- OS & IDE Configs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Database & Local Storage ---
+*.sqlite3
+*.db
